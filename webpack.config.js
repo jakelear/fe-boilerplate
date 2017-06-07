@@ -57,15 +57,6 @@ module.exports = {
       }),
 
       new DashboardPlugin()
-
-      // function() {
-      //   this.plugin('done', stats => {
-      //     require('fs').writeFileSync(
-      //       path.join(__dirname, 'dist/manifest.json'),
-      //       JSON.stringify(stats.toJson().assetsByChunkName)
-      //     );
-      //   });
-      // }
     ]
 }
 
