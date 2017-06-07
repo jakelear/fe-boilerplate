@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 
-This starts webpack dev server on [localhost:8080](http://localhost:8080) and webpack will watch for changes. There is no hot reloading, so you'll still need to reload the browser manually.
+This starts webpack dev server on [localhost:8080](http://localhost:8080) and webpack will watch for changes and automatically reload the browser.
 
 ## Simulate production
 1. Run
