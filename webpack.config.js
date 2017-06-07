@@ -7,6 +7,7 @@ var DashboardPlugin = require('webpack-dashboard/plugin');
 var in_prod_env = process.env.NODE_ENV === 'production';
 
 module.exports = {
+    devtool: 'source-map',
     entry: {
       main: [
         './src/scripts/main.js',
