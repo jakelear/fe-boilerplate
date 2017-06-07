@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "development": "webpack",
-    "production": "NODE_ENV=production webpack",
-    "watch": "webpack --progress --watch",
-    "serve": "webpack-dashboard -- webpack-dev-server --watch --open"
+    "dev": "webpack-dashboard -- webpack-dev-server --watch --open",
+    "production": "NODE_ENV=production webpack-dev-server --watch --open"
   },
   "keywords": [],
   "author": "",
