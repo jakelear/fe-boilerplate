@@ -5,6 +5,15 @@ A barebones webpack config to compile Sass via node-sass and ES2015 JavaScript v
 ![screenshot of browser and webpack-dashboard](http://images.jakebot.com/oXnW0SE6.png)
 
 ## Install Dependencies
+
+First, install global dependencies:
+
+```
+npm install webpack-dashboard webpack-dev-server -g
+```
+
+Then install local dependencies:
+
 ```
 npm install
 ```
