@@ -6,28 +6,24 @@
   "scripts": {
     "format": "prettier --write --single-quote --print-width=120 --parser=flow --tab-width=2 \"app/**/*.js\"",
     "lint": "eslint \"app/**/*.js\" --quiet",
-    "dev": "webpack-dashboard -- webpack-dev-server --watch --open",
-    "production": "NODE_ENV=production webpack-dashboard -- webpack-dev-server --watch --open"
+    "serve": "webpack-dev-server --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
-    "babel-loader": "^7.0.0",
-    "babel-preset-es2015": "^6.24.1",
-    "clean-webpack-plugin": "^0.1.16",
-    "css-loader": "^0.28.4",
-    "ejs-loader": "^0.3.0",
-    "extract-text-webpack-plugin": "^2.1.0",
-    "file-loader": "^0.11.2",
-    "html-webpack-plugin": "^2.30.1",
-    "node-sass": "^4.5.3",
-    "sass-loader": "^6.0.5",
-    "style-loader": "^0.18.2",
-    "webpack": "^2.6.1",
-    "webpack-dashboard": "^0.4.0",
-    "webpack-dev-server": "^2.5.0"
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.14.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }
