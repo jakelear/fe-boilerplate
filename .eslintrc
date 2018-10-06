@@ -1,0 +1,7 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "sort-keys": "error",
+    "space-before-function-paren": "off"
+  }
+}
